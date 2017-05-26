@@ -1,0 +1,23 @@
+{
+  "name": "Bot-a-stock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootbot": "^1.0.12",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "messenger-bot": "^2.4.0",
+    "mongoose": "^4.10.1",
+    "node-markitondemand": "^1.0.4",
+    "nodemon": "^1.11.0",
+    "yahoo-finance": "^0.3.2"
+  }
+}
